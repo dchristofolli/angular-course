@@ -2,6 +2,7 @@ export class Course {
     id: number;
     name: string;
     imageUrl: string;
+    description: string;
     price: number;
     code: string;
     duration: number;
@@ -12,6 +13,7 @@ export class Course {
         this.id = 0;
         this.name = '';
         this.imageUrl = '';
+        this.description = '';
         this.price = 0;
         this.code = '';
         this.duration = 0;
