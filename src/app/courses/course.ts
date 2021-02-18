@@ -9,6 +9,7 @@ export class Course {
     rating: number;
     releaseDate: string;
 
+    
     constructor() {
         this.id = 0;
         this.name = '';
